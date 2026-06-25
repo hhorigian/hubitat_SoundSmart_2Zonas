@@ -1,0 +1,29 @@
+{
+  "packageName":"SoundSmart - 2 Zone Matrix (MZ21)",
+  "author":"VH",
+  "version":"1.0",
+  "minimumHEVersion":"2.4.1.151",
+  "dateReleased":"2026-06-24",
+  "releaseNotes":"Initial release",
+  "communityLink":"RA",
+  "drivers": [
+    {
+      "id":"3ecd704b-11ec-4ed3-8e27-7340ee178e65",
+      "name":"SoundSmart MZ21",
+      "location":"https://raw.githubusercontent.com/hhorigian/hubitat_SoundSmart_2Zonas/refs/heads/main/Hubitat_TRATO_SoundSmart_2Zonas_Parent.groovy",
+      "required":true
+    },
+    {
+      "id":"9aa3ffac-fadf-4576-8d8f-934451cf6789",
+      "name":"SoundSmart MZ21 - Zona",
+      "location":"https://raw.githubusercontent.com/hhorigian/hubitat_SoundSmart_2Zonas/refs/heads/main/Hubitat_TRATO_SoundSmart_2Zonas_Child.groovy",
+      "required":true
+    },
+    {
+      "id":"8e8ffce6-2807-48f0-b992-eae4e780c734",
+      "name":"SoundSmart - Player",
+      "location":"https://raw.githubusercontent.com/hhorigian/hubitat_SoundSmart_2Zonas/refs/heads/main/Player/Hubitat_TRATO_SoundSmart-Player_Driver.groovy",
+      "required":true
+    }
+  ]
+}
